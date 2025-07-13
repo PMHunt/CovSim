@@ -1,5 +1,5 @@
 # Game.gd - Simple game manager
-class_name Game extends RefCounted
+class_name Game extends Resource
 
 var character: YoungMagus
 var books: Array[Book] = []
